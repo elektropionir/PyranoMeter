@@ -24,5 +24,8 @@ Components used:
 * 15 OHM 5W 'shortcut' resistor for mini PV panel
 * Arduino MKR Zero
 * I2C hub (Grove)
-* OLED display and LED Matrix display
-* LiPo battery
+* OLED display (128 x 128) and LED Matrix display
+
+## development
+
+ 2023.08.01: updated insolation calculation and a larger (128 x 128) Oled screen.
