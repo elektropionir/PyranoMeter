@@ -6,13 +6,10 @@
 #include <TM1637Display.h>
 
 // Module connection pins (Digital Pins)
-#define CLK 14
-#define DIO 13
-
-TM1637Display matrix(CLK, DIO);
+TM1637Display matrix(LEDMATRIX_CLOCK_PIN, LEDMATRIX_DATA_PIN);
 
 void matrixSetup() {
-matrix.setBrightness(5);
+matrix.setBrightness(5); // range: 0-7; display.setBrightness(7, false);  // Turn off
 }
 
 void matrixLoop() {
