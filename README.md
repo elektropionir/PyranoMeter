@@ -26,6 +26,6 @@ Components used:
 * I2C hub (Grove)
 * OLED display (128 x 128) and LED Matrix display
 
-## development
+## Releases
 
- 2023.08.01: updated insolation calculation and a larger (128 x 128) Oled screen.
+ 2023.08.01: updated insolation calculation and using a larger (128x128) Oled screen.
